@@ -1,0 +1,48 @@
+-- CREATE TABLE test (
+-- 	real_type REAL,
+-- 	doule_type DOUBLE PRECISION,
+-- 	numeric_type NUMERIC
+-- );
+
+-- INSERT INTO test
+-- VALUES
+-- 	(1.1234567812345678912,
+-- 	1.1234567812345678912,
+-- 	1.1234567812345678912
+-- );
+
+-- SELECT * FROM test;
+
+
+-- CREATE TABLE test2 (
+-- 	float4_type FLOAT4,
+-- 	float8_type FLOAT8,
+-- 	decimal_type DECIMAL
+-- );
+
+-- INSERT INTO test2
+-- VALUES
+-- 	(1.1234567812345678912,
+--     1.1234567812345678912,
+--  	1.1234567812345678912
+-- );
+
+
+-- SELECT * FROM test2;
+
+-- SELECT (10 + 2);
+
+-- SELECT (10.0);
+
+-- İFADEYİ INTEGERE ÇEVİRME
+
+SELECT (10.0::INTEGER);
+
+SELECT (10.444444444444444444444444444::REAL);
+
+
+
+
+
+
+
